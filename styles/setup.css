@@ -18,10 +18,12 @@ html {
   --blue: #2350e3;
   --green: #2dab2d;
   --red: #d83f24;
+  --gray: #444957;
+  --gray-light: #71798f;
 }
 
 body {
-  background: linear-gradient(to top right, var(--purple), var(--blue));
+  background: linear-gradient(50deg, var(--gray), var(--gray-light));
   min-height: 100vh;
   margin: 0;
   padding: 2rem;
